@@ -1,0 +1,52 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+    color: rgba(135, 130, 55, 1);
+}
+
+.row-footer{
+    background-color: rgba(185, 55, 5, 0.8);
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+/*links inside footer*/
+.row-footer a:link, .row-footer a:visited {
+    color: rgba(35, 0, 0, 1);;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: rgba(155, 65, 45, 1);
+    color: rgba(255, 250, 105, 1);
+}
+
+address{
+    font-size:90%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+/*LINKS: everywhere links color and size*/
+a:link {
+    color:rgba(205, 77, 30, 1);
+}
+/* visited link */
+a:visited {
+    color:rgba(175, 77, 30, 1);
+}
+/* mouse over link */
+a:hover {
+    color:rgba(235, 117, 70, 1);;
+}
+/* selected link */
+a:active {
+    color: rgba(255, 127, 80, 1);
+}
