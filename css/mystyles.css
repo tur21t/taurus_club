@@ -95,7 +95,7 @@ body{
 #signInForm{
     
     color: rgba(158, 158, 158, 1);
-    padding:9px 0px 7px 121px;
+    /*padding:9px 0px 7px 121px;*/
     }
 
 .breadcrumb {background: rgba(125, 159, 59, 1); 
@@ -111,3 +111,44 @@ body{
 .breadcrumb a:hover {color: rgba(195, 105, 85, 0.8);}
 .breadcrumb>.active {font-weight: bold; color: rgba(145, 55, 35, 0.8);}
 .breadcrumb>li+li:before {color: rgba(155, 65, 45, 0.5); content: "\2771\00a0";}
+
+.tab-content {
+    
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+/*about page vertical navigation*/
+.affix {
+    top:100px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+background-color: rgba(255, 140, 0, 1);
+
+}
+/*Photo Gallery Carousel*/
+.carousel {
+    background: rgba(155, 65, 45, 1);
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      max-height: 500px;
+      /*width: 70%;*/
+      margin: auto;
+
+  }
+ #carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
+/*.carousel .item {
+  height: 500px;
+}
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}*/
